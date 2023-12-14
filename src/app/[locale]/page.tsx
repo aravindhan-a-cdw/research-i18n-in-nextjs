@@ -15,7 +15,7 @@ export default async function Page({ params: { locale } }: Props) {
 				<Link href={`/${locale}`}>{t("home")}</Link>
 				<Link href={`/${locale}/about`}>{t("about")}</Link>
 			</div>
-			<p>Welcome to CDW</p>
+			<p>{t("welcome")}</p>
 		</div>
 	);
 }

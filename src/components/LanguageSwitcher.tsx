@@ -29,6 +29,7 @@ export default function LocaleSwitcherSelect({
 				`/${nextLocale}`
 			);
 			// router.replace(newName);
+			router.push(newName);
 			router.refresh();
 			// document.location.replace(`/${nextLocale}`);
 		});
@@ -42,16 +43,14 @@ export default function LocaleSwitcherSelect({
 		>
 			<p className="sr-only">{label}</p>
 			<select
-				className="inline-flex appearance-none bg-transparent py-3 pl-2 pr-6"
+				className="inline-flex appearance-none bg-transparent py-2 pl-2 pr-6"
 				defaultValue={defaultValue}
 				disabled={isPending}
 				onChange={onSelectChange}
 			>
 				{children}
 			</select>
-			<span className="pointer-events-none absolute right-2 top-[8px]">
-				⌄
-			</span>
+			<span className="pointer-events-none absolute right-2 py-1">⌄</span>
 		</label>
 	);
 }
