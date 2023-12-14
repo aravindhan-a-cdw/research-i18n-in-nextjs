@@ -1,0 +1,14 @@
+{
+	"NAV": {
+		"company_name": "CDW",
+		"tagline": "A super company",
+		"language_switcher": "Language"
+	},
+	"HOME": {
+		"welcome": "Welcome to CDW"
+	},
+	"ABOUT": {
+		"title": "About Us",
+		"description": "We have a good software developing team with us!"
+	}
+}
