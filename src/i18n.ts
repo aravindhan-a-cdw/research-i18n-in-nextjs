@@ -4,4 +4,5 @@ export default getRequestConfig(async ({ locale }) => ({
 	messages: (await import(`../messages/${locale}.json`)).default,
 }));
 
-export const locales = ["en", "ta"];
+export const locales = ["en", "ta", "hi"];
+export const defaultLocale = "en";

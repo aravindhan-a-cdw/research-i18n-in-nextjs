@@ -1,14 +1,14 @@
 {
-	"NAV": {
-		"company_name": "CDW",
-		"tagline": "A super company",
-		"language_switcher": "Language"
-	},
-	"HOME": {
-		"welcome": "CDW நிறுவனத்திற்கு வரவேற்கிறோம்"
-	},
-	"ABOUT": {
-		"title": "எங்களை பற்றி",
-		"description": "எங்களுடன் ஒரு நல்ல மென்பொருள் உருவாக்கும் குழு உள்ளது!"
-	}
+  "NAV": {
+    "company_name": "CDW",
+    "tagline": "A super company",
+    "language_switcher": "Language"
+  },
+  "HOME": {
+    "welcome": "CDW நிறுவனத்திற்கு வரவேற்கிறோம்"
+  },
+  "ABOUT": {
+    "title": "எங்களை பற்றி",
+    "description": "எங்களுடன் ஒரு நல்ல மென்பொருள் உருவாக்கும் குழு உள்ளது!"
+  }
 }
